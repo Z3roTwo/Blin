@@ -1,11 +1,15 @@
 # Human Simultor 2000x
+
+# Importera modulerna som behövs
 import random, time
 
+# Sätt variablerna
 sleeping = True
 smell = 1
 smellText = "bad"
 shower = 1
 showerLoop = True
+# 
 if random.randint(1, 2) == 1:
     smell = 1
     smellText = "bad"
